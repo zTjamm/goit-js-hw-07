@@ -19,8 +19,6 @@ function openModal (event) {
         return;
     } else {
         const urlOrig = event.target.dataset.source;
-        basicLightbox.create(`<img src="${urlOrig}">`).show();        
-      console.log(event.target.dataset.source)
-      console.log(event.target)
+        basicLightbox.create(`<img src="${urlOrig}">`).show();    
     }     
 }
